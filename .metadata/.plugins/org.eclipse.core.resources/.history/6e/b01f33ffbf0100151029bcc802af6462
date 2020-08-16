@@ -1,0 +1,31 @@
+import javax.swing.JFrame;
+import javax.swing.JButton;
+import java.awt.*;
+
+public class BoardGUI
+{
+    JFrame frame = new JFrame();
+    int[][]board;
+    int num;
+    
+    public BoardGUI(int length, int width)
+    {
+        frame.setLayout(new GridLayout(length,width));
+        board = new int[length][width];
+        for(int x = 0; x < length; x++)
+        {
+            for(int y = 0; y < width; y++)
+            {
+                board[x][y] = num;
+            }
+        }
+        frame.setVisible(true);
+        frame.pack();
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+    
+    public static void main(String args[])
+    {
+        new BoardGUI(9,9);
+    }
+}

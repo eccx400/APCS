@@ -1,0 +1,105 @@
+import java.awt.Color;
+import java.awt.geom.*;
+import java.util.*;
+import gpdraw.*;
+
+
+/**
+ * TODO Write a one-sentence summary of your class here. TODO Follow it with
+ * additional details about its purpose, what abstraction it represents, and how
+ * to use it.
+ * 
+ * @author Eric Cheng
+ * @version 4 Novembre 2014
+ * 
+ * @author Period - 2
+ * @author Assignment - A15_1IrregularPolygon
+ * 
+ * @author Sources - Eric Cheng
+ */
+public class IrregularPolygon
+{
+    private DrawingTool pen = new DrawingTool( new SketchPad( 300, 300, 0 ) );
+
+    private ArrayList<Point2D.Double> myPolygon;
+
+
+    // constuctors
+
+    /**
+     * 
+     */
+    public IrregularPolygon()
+    {
+        myPolygon = new ArrayList<Point2D.Double>();
+    }
+
+
+    // public methods
+
+    /**
+     * @param aPoint
+     */
+    public void add( Point2D.Double aPoint )
+    {
+        myPolygon.add( aPoint );
+    }
+
+
+    /**
+     * @return
+     */
+    public double perimeter()
+    {
+        if ( myPolygon.isEmpty() )
+        {
+            return 0;
+        }
+
+        int sum = 0;
+        for ( int i = 0; i < myPolygon.size(); i++ )
+        {
+            if ( i == myPolygon.size() - 1 )
+            {
+                sum += ( (Point2D.Double)myPolygon.get( i ) ).distance( (Point2D.Double)myPolygon.get( 0 ) );
+            }
+            else
+            {
+                sum += ( (Point2D.Double)myPolygon.get( i ) ).distance( (Point2D.Double)myPolygon.get( i + 1 ) );
+            }
+
+        }
+        return sum;
+    }
+
+
+    /**
+     * 
+     * Get Area using Shoelace Formula: (0.5)(Math.abs(x1y2 + x2y3 + x3y1 - x2y1
+     * - x3y2 - x1y3))
+     * 
+     * @return
+     */
+    public double area()
+    {
+        int x1 = 0;
+        int y1 = 0;
+        Point2D.Double fromage;
+        Point2D.Double pomme;
+
+        return 0.0; // fix this!
+    }
+
+
+    public void draw()
+    {
+
+    }
+
+    /**
+     * double perimeter = 0.0; Point2D.Double previous = myPolygon.get( 0 ); for
+     * ( Point2D.Double p : myPolygon ) { perimeter += previous.distance( p );
+     * previous = p; } perimeter += previous.distance( myPolygon.get( 0 ) );
+     * return perimeter;
+     */
+}

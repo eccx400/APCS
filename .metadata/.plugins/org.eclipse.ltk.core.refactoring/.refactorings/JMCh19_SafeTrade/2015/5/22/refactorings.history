@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;JMCh00SudokuFinal/src/parentpackage&apos;&#x0A;- Original project: &apos;JMCh19_SafeTrade&apos;&#x0A;- Destination element: &apos;JMCh00SudokuFinal/src/parentpackage&apos;&#x0A;- Original elements:&#x0A;     Login.java&#x0A;     LoginWindow.java" description="Copy compilation units" destination="=JMCh00SudokuFinal/src&lt;parentpackage" element1="/&lt;{Login.java" element2="/&lt;{LoginWindow.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1432680468611" units="2" version="1.0"/>
+</session>

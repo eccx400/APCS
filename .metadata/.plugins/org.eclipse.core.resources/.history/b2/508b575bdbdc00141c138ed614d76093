@@ -1,0 +1,92 @@
+import java.util.*;
+
+
+/**
+ * Write a number class that represents a number with a given base. The number
+ * class has two constructors. The default constructor sets the base at 10 and
+ * the value to 0. The other constructor accepts a decimal value and a base. The
+ * constructors will have to create all of the digits (as objects of the digit
+ * class) and store them in some kind of list. Create a toString method and an
+ * increment method. These two methods will use the corresponding methods of the
+ * digit class to do most of the work for them.
+ * 
+ * @author Eric Cheng
+ * @version 6 April 2015
+ * @author Period - 2
+ * @author Assignment - A21_1Numbers
+ * @author Sources - Eric Cheng
+ */
+public class Number
+{
+    private int base;
+
+    private double value;
+
+    private Digit digit;
+
+    private ArrayList<Digit> digits;
+
+
+    public Number()
+    {
+        base = 10;
+        value = 0;
+        digits = new ArrayList<Digit>();
+        digit = new Digit();
+        digits.add( digit );
+    }
+
+
+    public Number( double v, int b )
+    {
+        base = b;
+        value = v;
+        digits = new ArrayList<Digit>();
+        while ( value > 0 )
+        {
+            Digit d = new Digit( value % base, base );
+            digits.add( d );
+            value = (int)value / base;
+        }
+
+    }
+
+
+    public String toString()
+    {
+        String str = "";
+        Iterator<Digit> iter = digits.listIterator();
+        Stack stck = new Stack();
+        Digit temp;
+
+        while ( iter.hasNext() )
+        {
+            temp = iter.next();
+            stck.push( temp.toString() );
+        }
+
+        while ( !stck.isEmpty() )
+            str = str + stck.pop();
+
+        return str;
+    }
+
+
+    public void increment()
+    {
+        int index = 0;
+        Digit digit = (Digit)digits.get( index );
+
+        while ( digit.increment() )
+        {
+            digits.set( index, digit );
+            index++;
+            if ( index >= digits.size() )
+            {
+                digits.add( new Digit( 1, base ) );
+                break;
+            }
+            digit = (Digit)digits.get( index );
+        }
+    }
+}

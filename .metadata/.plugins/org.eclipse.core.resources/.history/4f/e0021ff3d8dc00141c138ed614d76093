@@ -1,0 +1,81 @@
+import java.util.*;
+
+/**
+   TODO Write a one-sentence summary of your class here.
+   TODO Follow it with additional details about its purpose, what abstraction
+   it represents, and how to use it.
+
+   @author  TODO Your Name
+   @version TODO Date
+
+   @author  Period - TODO Your Period
+   @author  Assignment - TODO Assignment Name
+
+   @author  Sources - TODO list collaborators
+ */
+public class Number
+{
+    private int base;
+    private double value;
+    private Digit digit;
+    private ArrayList<Digit> digits;
+     
+    public Number()
+    {
+        base = 10;
+        value = 0;
+        digits = new ArrayList<Digit>();
+        digit = new Digit();
+        digits.add( digit );
+    }
+     
+    public Number(double v, int b )
+    {
+       base = b;
+       value = v;
+       digits = new ArrayList<Digit>();
+       while( value > 0 )
+       {
+           Digit d = new Digit( value%base, base );
+           digits.add( d );
+           value = (int)value/base;
+       }
+ 
+    }
+    public String toString() 
+    { 
+        String str = ""; 
+        Iterator<Digit> iter = digits.listIterator(); 
+        Stack stck = new Stack(); 
+        Digit temp; 
+   
+        while ( iter.hasNext() ) 
+        { 
+            temp = iter.next(); 
+            stck.push( temp.toString() ); 
+        } 
+   
+        while ( !stck.isEmpty() ) 
+            str = str + stck.pop(); 
+   
+        return str; 
+    } 
+     
+    public void increment()
+    {
+        int index = 0; 
+        Digit digit = (Digit)digits.get( index ); 
+   
+        while ( digit.increment() ) 
+        { 
+            digits.set( index, digit ); 
+            index++; 
+            if ( index >= digits.size() ) 
+            { 
+                digits.add( new Digit( 1, base ) ); 
+                break; 
+            } 
+            digit = (Digit)digits.get( index ); 
+        } 
+    }
+}

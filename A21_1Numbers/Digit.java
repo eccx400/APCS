@@ -1,0 +1,58 @@
+/**
+ * Write a digit class that represents a single digit with a given base. The
+ * digit class has two constructors. The default constructor sets the base at 10
+ * and the value to 0. The other constructor accepts a decimal value and a base.
+ * Create a toString method and an increment method. The increment method should
+ * return a boolean: true if there is a carry and false if not.
+ * 
+ * @author Eric Cheng
+ * @version 6 April 2015
+ * @author Period - 2
+ * @author Assignment - A21_1Numbers
+ * @author Sources - Eric Cheng
+ */
+public class Digit
+{
+    private double value;
+
+    private int base;
+
+
+    public Digit()
+    {
+        value = 0;
+        base = 10;
+    }
+
+
+    public Digit( double d, int b )
+    {
+        base = b;
+        value = d;
+    }
+
+
+    public boolean increment()
+    {
+        value++;
+        if ( value >= base )
+        {
+            value = value % base;
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    
+    public String toString()
+    {
+        if ( value > 9 )
+        {
+            return "" + (char)( ( value ) + 55 );
+        }
+
+        return "" + (int)value;
+    }
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;TreeNode.java&apos; to &apos;JMCh07_Wages/src/treelab&apos;&#x0A;- Original project: &apos;JMCh07_Wages&apos;&#x0A;- Destination element: &apos;JMCh07_Wages/src/treelab&apos;&#x0A;- Original element: &apos;newTestLab.TreeNode.java&apos;" description="Copy compilation unit" destination="/src&lt;treelab" element1="/src&lt;newTestLab{TreeNode.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1422863367669" units="1" version="1.0"/>
+</session>

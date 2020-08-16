@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="0" key="org.eclipse.jdt.uiformatter_page.white_space_tab_page.node"/>
+	<item value="862" key="org.eclipse.jdt.uiformatter_pagemodify_dialog.preferred_height"/>
+	<item value="1005" key="org.eclipse.jdt.uiformatter_pagemodify_dialog.preferred_width"/>
+	<item value="34" key="org.eclipse.jdt.uiformatter_pagemodify_dialog.preferred_x"/>
+	<item value="0" key="org.eclipse.jdt.uiformatter_pagemodify_dialog.preferred_y"/>
+	<item value="1" key="org.eclipse.jdt.uiformatter_page.line_wrapping_tab_page.last_category_index"/>
+	<item value="C:\Users\echeng400\Downloads" key="org.eclipse.jdt.ui.codeformatter.loadpath"/>
+	<item value="0" key="org.eclipse.jdt.uiformatter_page.white_space.java_view.inner"/>
+	<item value="filter_imports;" key="filters_last_used"/>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="false" key="updateQualifiedNames"/>
+		<item value="*" key="patterns"/>
+		<item value="false" key="updateSimilarElements"/>
+		<item value="1" key="updateSimilarElementsMatchStrategy"/>
+		<item value="false" key="updateTextualMatches"/>
+	</section>
+	<section name="SelfEncapsulateFieldWizard">
+		<item value="false" key="GenerateJavadoc"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
+		<item value="2" key="layout"/>
+		<item value="true" key="group_libraries"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1253484674369&quot;&gt;&#x0D;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0D;&#x0A;&lt;xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.buildfolder&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.subProject&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;/customFilters&gt;&#x0D;&#x0A;&lt;/packageExplorer&gt;" key="memento"/>
+		<item value="false" key="linkWithEditor"/>
+		<item value="1" key="rootMode"/>
+	</section>
+	<section name="NewClassWizardPage">
+		<item value="false" key="create_constructor"/>
+		<item value="true" key="create_unimplemented"/>
+	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
+	</section>
+	<section name="DialogBounds_GenerateHashCodeEqualsDialog">
+		<item value="499" key="DIALOG_WIDTH"/>
+		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
+		<item value="509" key="DIALOG_HEIGHT"/>
+		<item value="22" key="DIALOG_Y_ORIGIN"/>
+		<item value="391" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.typehierarchy.QuickHierarchy">
+		<item value="true" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_SIZE"/>
+		<item value="300" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_HEIGHT"/>
+		<item value="350" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_WIDTH"/>
+		<item value="false" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="22" key="DIALOG_Y_ORIGIN"/>
+			<item value="340" key="DIALOG_X_ORIGIN"/>
+		</section>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item value="600" key="width"/>
+		<item value="400" key="height"/>
+	</section>
+	<section name="javadoc">
+		<item value="public" key="access"/>
+		<item value="false" key="noindex"/>
+		<item value="/Users/Eric/Dropbox/workspace/JMCh00SudokuFinal/javadoc.xml" key="antpath"/>
+		<item value="false" key="nodeprecatedlist"/>
+		<item value="true" key="use"/>
+		<item value="true" key="author"/>
+		<item value="false" key="nodeprecated"/>
+		<item value="false" key="nonavbar"/>
+		<item value="" key="docletpath"/>
+		<item value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/bin/javadoc" key="javadoc_command_history"/>
+		<item value="1.8" key="source"/>
+		<item value="true" key="version"/>
+		<item value="" key="docletname"/>
+		<item value="true" key="splitindex"/>
+		<item value="true" key="fromStandard"/>
+		<item value="false" key="notree"/>
+		<item value="/Users/Eric/Dropbox/workspace/JMCh00SudokuFinal/doc" key="destdir"/>
+		<item value="false" key="openinbrowser"/>
+		<section name="projects">
+			<section name="AB31_3RPN">
+				<item value="/Users/Eric/Dropbox/workspace/AB31_3RPN/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/AB31_3RPN/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh09Ex17_Complex">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh09Ex17_Complex/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh09Ex17_Complex/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh13_9BenchmarksSC">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh13_9BenchmarksSC/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh13_9BenchmarksSC/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh23_6MorseCode">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh23_6MorseCode/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh23_6MorseCode/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh12_11Chomp">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh12_11Chomp/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh12_11Chomp/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh06_10PieChart">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh06_10PieChart/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh06_10PieChart/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh10Exercises">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh10Exercises/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh10Exercises/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="APCSElevensActivity1">
+				<item value="/Users/Eric/Dropbox/workspace/APCSElevensActivity1/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/APCSElevensActivity1/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh00SudokuFinal">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh00SudokuFinal/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh00SudokuFinal/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="A16_Statistics">
+				<item value="/Users/Eric/Dropbox/workspace/A16_Statistics/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/A16_Statistics/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh07_Wages">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh07_Wages/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh07_Wages/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh14_DictionaryMaker">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh14_DictionaryMaker/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh14_DictionaryMaker/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh25_5Heapsort">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh25_5Heapsort/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh25_5Heapsort/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh07_RollingDice">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh07_RollingDice/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh07_RollingDice/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Ch63_RadioButtons">
+				<item value="/Users/Eric/Dropbox/workspace_2013-2014/Ch63_RadioButtons/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace_2013-2014/Ch63_RadioButtons/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh20_5LinkedListWithTail">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh20_5LinkedListWithTail/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh20_5LinkedListWithTail/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh09_SnackBar">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh09_SnackBar/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh09_SnackBar/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh24_3Cryptogram">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh24_3Cryptogram/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh24_3Cryptogram/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="AB24ThreadTheMazeText">
+				<item value="/Users/Eric/Dropbox/workspace/AB24ThreadTheMazeText/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/AB24ThreadTheMazeText/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh25_4Heap">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh25_4Heap/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh25_4Heap/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh02_Hello">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh02_Hello/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh02_Hello/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh22_6Hex">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh22_6Hex/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh22_6Hex/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="A12_1FunLoops">
+				<item value="/Users/Eric/Dropbox/workspace/A12_1FunLoops/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/A12_1FunLoops/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh05_MovingDisk">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh05_MovingDisk/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh05_MovingDisk/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh21_3Browsing">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh21_3Browsing/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh21_3Browsing/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="A15_1IrregularPolygon">
+				<item value="/Users/Eric/Dropbox/workspace/A15_1IrregularPolygon/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/A15_1IrregularPolygon/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Ch57_ButtonsAndActions">
+				<item value="/Users/Eric/Dropbox/workspace_2013-2014/Ch57_ButtonsAndActions/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace_2013-2014/Ch57_ButtonsAndActions/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh08_PerfectNumbers">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh08_PerfectNumbers/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh08_PerfectNumbers/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="APCSPixLab">
+				<item value="/Users/Eric/Dropbox/workspace/APCSPixLab/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/APCSPixLab/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh20_7Teletext">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh20_7Teletext/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh20_7Teletext/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="A21_1Numbers">
+				<item value="/Users/Eric/Dropbox/workspace/A21_1Numbers/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/A21_1Numbers/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh12_Exercises">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh12_Exercises/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh12_Exercises/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh03Ex12_Cylinder">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh03Ex12_Cylinder/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh03Ex12_Cylinder/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Ch56_SwingFrames">
+				<item value="/Users/Eric/Dropbox/workspace_2013-2014/Ch56_SwingFrames/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace_2013-2014/Ch56_SwingFrames/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="KnightCritterTour">
+				<item value="/Users/Eric/Dropbox/workspace/KnightCritterTour/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/KnightCritterTour/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ABFR_Quilt">
+				<item value="/Users/Eric/Dropbox/workspace/ABFR_Quilt/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/ABFR_Quilt/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh13_4KeepingThingsInOrder">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh13_4KeepingThingsInOrder/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh13_4KeepingThingsInOrder/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="A11_3Checker">
+				<item value="/Users/Eric/Dropbox/workspace/A11_3Checker/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/A11_3Checker/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh03Ex11_Book">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh03Ex11_Book/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh03Ex11_Book/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh11Ex8_Triangle">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh11Ex8_Triangle/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh11Ex8_Triangle/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="GridWorld_BugRunner">
+				<item value="/Users/Eric/Dropbox/workspace/GridWorld_BugRunner/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/GridWorld_BugRunner/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="APCS_LinearAlgebra">
+				<item value="/Users/Eric/Dropbox/workspace/APCS_LinearAlgebra/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/APCS_LinearAlgebra/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Ch65_Events">
+				<item value="/Users/Eric/Dropbox/workspace_2013-2014/Ch65_Events/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace_2013-2014/Ch65_Events/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="A12_6ParallelLines">
+				<item value="/Users/Eric/Dropbox/workspace/A12_6ParallelLines/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/A12_6ParallelLines/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Mozart Waltz Generator">
+				<item value="/Users/Eric/Dropbox/workspace_2013-2014/Mozart Waltz Generator/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace_2013-2014/Mozart Waltz Generator/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="AB27_2MergeList">
+				<item value="/Users/Eric/Dropbox/workspace/AB27_2MergeList/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/AB27_2MergeList/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="AB24ThreadTheMazeGraphic">
+				<item value="/Users/Eric/Dropbox/workspace/AB24ThreadTheMazeGraphic/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/AB24ThreadTheMazeGraphic/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh02Exer">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh02Exer/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh02Exer/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="AB24EraseObject">
+				<item value="/Users/Eric/Dropbox/workspace/AB24EraseObject/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/AB24EraseObject/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Ch59_ButtonsAndActionEvents">
+				<item value="/Users/Eric/Dropbox/workspace_2013-2014/Ch59_ButtonsAndActionEvents/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace_2013-2014/Ch59_ButtonsAndActionEvents/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="A3_2Coins">
+				<item value="/Users/Eric/Dropbox/workspace/A3_2Coins/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/A3_2Coins/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh12_9IndexMaker">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh12_9IndexMaker/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh12_9IndexMaker/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh19_SafeTrade">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh19_SafeTrade/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh22_6Hex" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh04Ex16_Ornament">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh04Ex16_Ornament/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh04Ex16_Ornament/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh999_FinalExam">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh999_FinalExam/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh999_FinalExam/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh25Exercises">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh25Exercises/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh25Exercises/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="A11_1BackToSchool">
+				<item value="/Users/Eric/Dropbox/workspace/A11_1BackToSchool/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/A11_1BackToSchool/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh21_6ActorsWorld">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh21_6ActorsWorld/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh21_6ActorsWorld/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh23_5BST">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh23_5BST/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh23_5BST/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh10_PigLatinator">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh10_PigLatinator/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh10_PigLatinator/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh12_3FortuneTeller">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh12_3FortuneTeller/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh12_3FortuneTeller/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="AB30_3BST">
+				<item value="/Users/Eric/Dropbox/workspace/AB30_3BST/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/AB30_3BST/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh24_6Giggle">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh24_6Giggle/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh24_6Giggle/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Ch61_GUIApps">
+				<item value="/Users/Eric/Dropbox/workspace_2013-2014/Ch61_GUIApps/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace_2013-2014/Ch61_GUIApps/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="A3_1Easter">
+				<item value="/Users/Eric/Dropbox/workspace/A3_1Easter/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/A3_1Easter/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="A29_1OldMacDonald">
+				<item value="/Users/Eric/Dropbox/workspace/A29_1OldMacDonald/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/A29_1OldMacDonald/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh20_4Lists">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh20_4Lists/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh20_4Lists/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh20Exercises">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh20Exercises/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh20Exercises/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="JMCh10_Lipogrammer">
+				<item value="/Users/Eric/Dropbox/workspace/JMCh10_Lipogrammer/javadoc.xml" key="antpath"/>
+				<item value="/Users/Eric/Dropbox/workspace/JMCh10_Lipogrammer/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+		</section>
+	</section>
+	<section name="SourceActionDialog.methods">
+		<item value="false" key="SynchronizedModifier"/>
+		<item value="false" key="Blocks"/>
+		<item value="false" key="Comments"/>
+		<item value="false" key="InstanceOf"/>
+		<item value="false" key="FinalModifier"/>
+	</section>
+	<section name="RenameInformationPopup">
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item value="3" key="pageIndex"/>
+	</section>
+	<section name="JavaSearchPage">
+		<item value="0" key="HISTORY_SIZE"/>
+		<item value="false" key="CASE_SENSITIVE"/>
+		<item value="11" key="INCLUDE_MASK"/>
+	</section>
+	<section name="quick_assist_proposal_size">
+		<item value="246" key="size.y"/>
+		<item value="355" key="size.x"/>
+	</section>
+	<section name="NewPackageWizardPage">
+		<item value="false" key="create_package_info_java"/>
+	</section>
+	<section name="JavadocWizardDialog">
+		<item value="600" key="DIALOG_WIDTH"/>
+		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
+		<item value="534" key="DIALOG_HEIGHT"/>
+		<item value="340" key="DIALOG_X_ORIGIN"/>
+		<item value="4" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="completion_proposal_size">
+		<item value="229" key="size.y"/>
+		<item value="355" key="size.x"/>
+	</section>
+	<section name="JavaElementSearchActions">
+	</section>
+</section>
